@@ -13,14 +13,14 @@ namespace Exercise5a
             //Print_a_2_z_v1();
             //while (true)
             //{
-            //    char c = Console.ReadKey().KeyChar;
-            //    Console.WriteLine(" "+Char2Code(c));
+                char c = Console.ReadKey().KeyChar;
+                Console.WriteLine(" "+Char2Code(c));
             //}
             
-            Console.WriteLine(" "+isUpper('A'));
-            Console.WriteLine(toUpper('a'));
-            Console.WriteLine(" "+isLower('A'));
-            Console.WriteLine(toLower('A'));
+            //Console.WriteLine(" "+isUpper('A'));
+            //Console.WriteLine(toUpper('a'));
+            //Console.WriteLine(" "+isLower('A'));
+            //Console.WriteLine(toLower('A'));
 
         }
         public static void Print_a_2_z_v1()
@@ -64,7 +64,7 @@ namespace Exercise5a
         public static int Char2Code(char a)
         {
             
-            return (int)a;
+            return a;
         }
         public static bool isUpper(char a)
         {
