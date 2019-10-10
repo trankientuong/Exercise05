@@ -13,8 +13,8 @@ namespace Exercise5b
             // Console.WriteLine(checkPalindrome("racecar"));
             //ChangeString();
             //Draw(10);
-                  
             
+            MaxandMin();
         }
         public static bool checkPalindrome(String text)
         { 
@@ -31,6 +31,20 @@ namespace Exercise5b
                 }
             }                      
             return true;
+        }
+        public static void MaxandMin()
+        {
+
+            //string[] arr = Console.ReadLine().Split(' ');
+            //int a = int.Parse(arr[0]);
+            //int b = int.Parse(arr[1]);           
+            string[] line = new string[10];
+            int i = 0;                      
+            while (true)
+            {
+                line[i] = Console.ReadLine();      
+                i++;              
+            }            
         }
         
         public static void ChangeString()
